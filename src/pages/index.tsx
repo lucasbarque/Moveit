@@ -25,6 +25,7 @@ export default function Home({ level, currentExperience, challengesCompleted }: 
       currentExperience={currentExperience}
       challengesCompleted={challengesCompleted}
     >
+
       <div className={styles.container}>
         <Head>
           <title>Início | move.it</title>
