@@ -7,7 +7,7 @@ export function Profile() {
   const { level } = useContext(ChallengesContext);
   return (
     <div className={styles.profileContainer}>
-      <Image src="https://avatars.githubusercontent.com/u/8497405?v=4" alt="Lucas Barque" width={100} height={100} style={{ borderRadius: '50%' }} />
+      <Image className={styles.myImg} src="https://avatars.githubusercontent.com/u/8497405?v=4" alt="Lucas Barque" width={100} height={100} />
       <div>
         <strong>Lucas Barque</strong>
         <p>
